@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 <br>
 # Load the dataset
-url = 'https://raw.githubusercontent.com/yourusername/yourrepository/main/sales_data.csv'  # Replace with the actual dataset URL
+url = 'https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input'  # Replace with the actual dataset URL
 df = pd.read_csv(url)
 <br>
 # Display the first few rows of the dataset
